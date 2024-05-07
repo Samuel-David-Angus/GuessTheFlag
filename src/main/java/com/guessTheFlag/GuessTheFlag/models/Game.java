@@ -1,4 +1,4 @@
-package com.guessTheFlag.GuessTheFlag;
+package com.guessTheFlag.GuessTheFlag.models;
 
 import jakarta.persistence.*;
 import lombok.Data;

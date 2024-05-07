@@ -1,4 +1,4 @@
-package com.guessTheFlag.GuessTheFlag;
+package com.guessTheFlag.GuessTheFlag.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -18,6 +18,6 @@ public class Flag {
     @Column(name = "src")
     private String src;
 
-    @Column(name = "is_correct")
-    private boolean is_correct;
+    @Column(name = "country_code")
+    private String country_code;
 }
