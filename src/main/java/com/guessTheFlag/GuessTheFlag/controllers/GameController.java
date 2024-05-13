@@ -18,11 +18,7 @@ public class GameController {
         if (continent == null || player == null) {
             throw new IllegalArgumentException("Continent and player are required parameters.");
         } else {
-            Game game = new Game();
-            game.setContinent(continent);
-            game.setPlayer(player);
-            // Set any other properties or perform initialization here
-            return game;
+            return gameService.newGame(continent, player);
         }
     }
 
